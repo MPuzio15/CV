@@ -5,146 +5,178 @@
   </head>
 
   <body>
-    <container class="header">
-      <div class="left">
-        <h1>Tony Stark</h1>
-        <h6>Web Developer</h6>
-      </div>
+    <main>
+      <container class="header">
+        <div class="left">
+          <h1>Tony Stark</h1>
+          <h6>Web Developer</h6>
+        </div>
 
-      <div class="right">
-        <div><img src="wojtek_martynski_1.jpg" alt="zdjecie" /></div>
-        <section class="mailandphone">
-          <a
-            href="http://www.cs.put.poznan.pl/mwojciechowski/cdv/ria/JavaScript.pdf"
-          >
-            <button id="button">Download PDF file</button></a
-          >
+        <div class="middle">
+          <div id="img">
+          </div>
+        </div>
 
-          <div id="email">Email:</div>
+        <div class="right">
+          <div id="contactData">
+            <section class="data">
+              <a
+                href="http://www.cs.put.poznan.pl/mwojciechowski/cdv/ria/JavaScript.pdf"
+              >
+                <button id="button">Download PDF file</button></a
+              >
+            </section>
+            <section class="data">
+              <div id="email">Email:</div>
 
-          <a id="address" href="mailto:tstark@gmail.com">tstark@gmail.com</a>
-          <img
-            id="emailicon"
-            src="./iconfinder_icon-2-mail-envelope-open_314213 (2).png"
-          />
-          <div id="phone">Tel:</div>
-          <div id="number"><a href="tel:+48123456789">tel:+48123456789</a></div>
-          <img
-            id="phoneicon"
-            src="./iconfinder_thefreeforty_phone_1243689 (1).png"
-          />
-        </section>
-      </div>
-    </container>
-    <hr />
-    <container class="Education">
-      <div class="left1">
-        <div>Education:</div>
-      </div>
-      <div class="right1">
-        <ul>
-          <li>1991-1996 - London University of Science und Technology</li>
-          <li>1996-2000 - Xavier School</li>
-          <li>2000-2005 - Oxford</li>
-        </ul>
-      </div>
-    </container>
-    <hr />
-    <container class="Skills">
-      <div class="left1">
-        <div>Skills:</div>
-      </div>
-      <div class="right1">
-        <div class="item">Web design</div>
-        <div>
-          Encompasses many different skills and discipliens in the production
-          and maintenance of websides.
+              <a id="address" href="mailto:tstark@gmail.com"
+                >tstark@gmail.com<img
+                  id="emailicon"
+                  src="./iconfinder_icon-2-mail-envelope-open_314213 (2).png"
+              /></a>
+            </section>
+            <section class="data">
+              <div id="phone">Tel:</div>
+              <p id="number">
+                <a href="tel:+48123456789">+48123456789</a
+                ><img
+                  id="phoneicon"
+                  src="./iconfinder_thefreeforty_phone_1243689 (1).png"
+                />
+              </p>
+            </section>
+          </div>
         </div>
-        <div class="item">Web design</div>
-        <div>
-          Encompasses many different skills and discipliens in the production
-          and maintenance of websides.
+      </container>
+
+      <hr />
+      <container class="Education">
+        <div class="left1">
+          <span class="heading">Education:</span>
         </div>
-        <div class="item">Web design</div>
-        <div>
-          Encompasses many different skills and discipliens in the production
-          and maintenance of websides.
+        <div class="right1">
+          <ul>
+            <li>1991-1996 - London University of Science und Technology</li>
+            <li>1996-2000 - Xavier School</li>
+            <li>2000-2005 - Oxford</li>
+          </ul>
         </div>
-        <div class="item">Web design</div>
-        <div>
-          Encompasses many different skills and discipliens in the production
-          and maintenance of websides.
+      </container>
+      <hr />
+      <container class="Skills">
+        <div class="left1">
+          <span class="heading">Skills:</span>
         </div>
-      </div>
-    </container>
-    <hr />
-    <container class="Technical">
-      <div class="left1">
-        <div>Technical:</div>
-      </div>
-      <div class="right1">
-        <table>
-          <tr>
+        <container class="right1">
+          <div class="block">
+            <div class="item">Web design</div>
+            <div class="itemDescription">
+              Encompasses many different skills and discipliens in the
+              production and maintenance of websides.
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="item">Web design</div>
+            <div class="itemDescription">
+              Encompasses many different skills and discipliens in the
+              production and maintenance of websides.
+            </div>
+          </div>
+          <div class="block">
+            <div class="item">Web design</div>
+            <div class="itemDescription">
+              Encompasses many different skills and discipliens in the
+              production and maintenance of websides.
+            </div>
+          </div>
+          <div class="block">
+            <div class="item">Web design</div>
+            <div class="itemDescription">
+              Encompasses many different skills and discipliens in the
+              production and maintenance of websides.
+            </div>
+          </div>
+        </container>
+      </container>
+      <hr />
+      <container class="Technical">
+        <div class="left1">
+          <span class="heading">Technical:</span>
+        </div>
+        <div class="right1">
+          <table>
             <tbody>
-              <td class="td1">Front End</td>
-              <td>JS</td>
-              <td>HTML</td>
-              <td>CSS</td>
-              <td>SASS</td>
-              <td>LASS</td>
+              <tr>
+                <td class="myTD">Front End</td>
+                <td>JS</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>SASS</td>
+                <td>LASS</td>
+              </tr>
+              <tr id="withBorder">
+                <td class="myTD">Back End</td>
+                <td>SQL</td>
+                <td>Web Api</td>
+                <td>RERT</td>
+                <td>C#</td>
+                <td>Visiual Studio</td>
+              </tr>
+              <tr>
+                <td class="myTD">Others</td>
+                <td>AutoCAD</td>
+                <td>Driving Licence</td>
+                <td>MS Office</td>
+                <td>Public speaking</td>
+                <td></td>
+              </tr>
             </tbody>
-          </tr>
-
-          <tr>
-            <td class="td1">Back End</td>
-            <td>SQL</td>
-            <td>Web Api</td>
-            <td>Rert</td>
-            <td>C#</td>
-            <td>Visiual Studio</td>
-          </tr>
-          <tr>
-            <td class="td1">Others</td>
-            <td>Cooking</td>
-            <td>Driving licence cat. A and B</td>
-            <td>singing</td>
-            <td>swimming</td>
-            <td>dancing</td>
-          </tr>
-        </table>
-      </div>
-    </container>
-    <hr />
-    <container class="Experience">
-      <div class="left1">
-        <div>Experience:</div>
-      </div>
-      <div class="right1">
-        <div class="position">
-          <h3>Full Stack Web Develoer</h3>
-          <h5>ABB</h5>
-          <div class="date">2010-2018</div>
+          </table>
         </div>
-        <div class="description">
-          Developed a concierge app, "Pley", for individuals looking for curated
-          suggestions when visiting a new place. React was used to develop the
-          front end which includes real-time chat, drag and drop and variety of
-          advanced features. The backend, built using Node, Express, and Mongo,
-          takes advantage of well-developed RESTful API, Geospatial searching,
-          and user authentication with JWT.F
+      </container>
+      <hr />
+      <container class="Experience">
+        <div class="left1">
+          <span class="heading">Experience:</span>
         </div>
-        <div class="position">
-          <h3>React Developer</h3>
-          <h5>Facebook</h5>
-          <div class="date">2005-2010</div>
+        <div class="right1">
+          <div class="position">
+            <h3>Full Stack Web Develoer</h3>
+            <h5>
+              ABB
+              <div class="date">2010-2018</div>
+            </h5>
+          </div>
+          <div class="description">
+            Developed a concierge app, "Pley", for individuals looking for
+            curated suggestions when visiting a new place. React was used to
+            develop the front end which includes real-time chat, drag and drop
+            and variety of advanced features. The backend, built using Node,
+            Express, and Mongo, takes advantage of well-developed RESTful API,
+            Geospatial searching, and user authentication with JWT.F
+          </div>
+          <div class="position">
+            <h3>React Developer</h3>
+            <h5>
+              Facebook
+              <div class="date">2005-2010</div>
+            </h5>
+          </div>
+          <div class="description">
+            Developed a language learning app, "Foodie Phonetics" using spaced
+            repetition and a linked list data structure. React was used to
+            create the front end components while Node and Mongo were used to
+            create a backend that stores user data.
+          </div>
         </div>
-        <div class="description">
-          Developed a language learning app, "Foodie Phonetics" using spaced
-          repetition and a linked list data structure. React was used to create
-          the front end components while Node and Mongo were used to create a
-          backend that stores user data.
-        </div>
-      </div>
-    </container>
+      </container>
+    </main>
+    <div id="mojDiv"></div>
+    <footer>
+      <p>Tony Stark</p>
+      <a href="mailto:tstark@gmail.com">tstark@gmail.com</a>
+      <a href="tel:+48123456789">tel:+48123456789</a>
+    </footer>
   </body>
 </html>
